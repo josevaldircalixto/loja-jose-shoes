@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #0067DA;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+header h1,
+h3 {
+  margin-left: 36px;
+  margin-right: 56px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+}
+
+main img,
+p {
+  width: 80%;
+}
+
+mais p {}
