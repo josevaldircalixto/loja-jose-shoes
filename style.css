@@ -5,10 +5,16 @@
   font-family: Roboto, sans-serif;
 }
 
+body {
+  width: 100%;
+  background-color: aliceblue;
+}
+
 header {
   display: flex;
   background-color: #0067DA;
   height: 80px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 36px;
@@ -24,12 +30,61 @@ h3 {
 main {
   display: flex;
   flex-direction: column;
+  margin-left: 8%;
+  margin-right: 8%;
 
 }
 
 main img,
 p {
-  width: 80%;
+  width: 100%;
 }
 
-mais p {}
+section img {
+  width: 100%;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-sessoes {
+  color: #0067DA;
+  justify-self: left;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+hr {
+  color: #0067DA;
+  border: solid 1px;
+  margin-bottom: 26px;
+}
+
+.container {
+  margin: 0 8% 0 8%;
+}
+
+.container ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.container button {
+  background-color: #0067DA;
+  color: #fff;
+  width: 100%;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
